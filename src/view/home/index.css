@@ -1,0 +1,48 @@
+.container__home {
+  background-color: aqua;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.content__home {
+  align-self: center;
+
+  background-color: rebeccapurple;
+  height: 70vh;
+  width: 80vw;
+  padding: 8px;
+
+  overflow: auto;
+}
+
+.inputBar__home {
+  text-align: center;
+  width: 100%;
+}
+
+.fetchBtn__home {
+  margin-left: 4px;
+  border: none;
+  background-color: transparent;
+
+  color: white;
+  font-weight: bold;
+}
+
+.fetchBtn__home {
+  cursor: pointer;
+}
+
+.nameInput__home {
+  margin-right: 4px;
+}
+
+.userName__home {
+  color: white;
+  margin: 8px 0;
+  text-align: center;
+}
